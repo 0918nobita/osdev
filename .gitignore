@@ -1,2 +1,6 @@
-main.efi
-main.o
+/mnt
+/disk.img
+/main.efi
+/main.o
+/OVMF_CODE.fd
+/OVMF_VARS.fd
