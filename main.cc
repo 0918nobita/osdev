@@ -9,7 +9,7 @@ struct EfiSimpleTextOutputProtocol {
 };
 
 struct EfiSystemTable {
-    char dummy[25];
+    char dummy[52];
     EfiHandle consoleOutHandle;
     EfiSimpleTextOutputProtocol *conOut;
 };
