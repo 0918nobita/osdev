@@ -6,6 +6,7 @@ if [ ! -e "disk.img" ]; then
 fi
 
 if [ -e "disk.img" ] && [ -e "main.efi" ]; then
+    mkdir -p mnt
     sudo mount -o loop disk.img mnt
     sudo mkdir -p mnt/EFI/BOOT
     sudo cp main.efi mnt/EFI/BOOT/BOOTX64.EFI
