@@ -3,7 +3,7 @@
 ## 準備
 
 ```bash
-./setup.bash
+bash ./setup.bash
 ```
 
 ## ブートローダのビルド
